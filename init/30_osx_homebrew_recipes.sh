@@ -6,6 +6,12 @@ is_osx || return 1
 
 # Homebrew recipes
 recipes=(
+  # ant
+  # maven
+  # gradle
+  # android-sdk
+  # android-ndk
+  lastpass-cli
   zsh
   fish
   asdf

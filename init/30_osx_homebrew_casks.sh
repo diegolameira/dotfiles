@@ -20,6 +20,7 @@ casks=(
   # Applications
   a-better-finder-rename
   alfred
+  dropbox
   adobe-creative-cloud
   android-studio
   android-platform-tools
