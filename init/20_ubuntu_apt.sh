@@ -23,31 +23,30 @@ function add_ppa() {
 # WHAT DO WE NEED TO INSTALL?
 #############################
 
+# TODO: SNAP
+# sudo snap install --classic slack code # that ones might be faster as .deb
+# sudo snap install androidsdk opera discord # that ones might be faster as .deb
+# sudo snap install spotify postman docker flameshot mailspring
+
 # Misc.
 apt_packages+=(
-  awscli
+  # TODO: move this
+  # typecatcher snapd xclip arc-theme baobab htop terminator gnome-tweak-tool  whois ubuntu-restricted-extras
+  # git curl wget zip unzip make gcc build-essential libssl-dev
+  # --no-install-recommends zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev llvm libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+  zsh
+  fish
   build-essential
-  cmatrix
-  cowsay
   curl
   docker.io
   docker-compose
   git-core
-  groff
+  cmatrix
   hollywood
   htop
-  id3tool
   imagemagick
-  jq
-  mercurial
-  nmap
-  postgresql
-  python-pip
   silversearcher-ag
-  sl
-  telnet
   thefuck
-  tree
 )
 
 apt_packages+=(vim)
@@ -165,7 +164,6 @@ if is_ubuntu_desktop; then
   # Misc
   apt_packages+=(adb fastboot)
   apt_packages+=(
-    chromium-browser
     fonts-mplus
     gnome-tweak-tool
     k4dirstat

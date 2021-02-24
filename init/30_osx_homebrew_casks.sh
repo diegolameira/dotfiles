@@ -20,51 +20,26 @@ casks=(
   # Applications
   a-better-finder-rename
   alfred
+  adobe-creative-cloud
+  android-studio
   android-platform-tools
-  bartender
-  battle-net
-  bettertouchtool
-  betterzip
-  caprine
-  charles
-  chromium
-  chronosync
-  controllermate
-  datagrip
+  bartender # menu bar icon organizer
   docker
-  dropbox
-  fastscripts
   firefox
-  gimp
-  gyazo
-  hex-fiend
   iterm2
-  karabiner-elements
-  licecap
   macvim
-  microsoft-remote-desktop-beta
-  midi-monitor
-  moom
-  ngrok
   numi
   omnidisksweeper
   postman
-  reaper
   robo-3t
-  scroll-reverser
+  spectacle
   skype
   slack
-  sourcetree
   spotify
-  steam
-  the-unarchiver
-  tower
-  vagrant
-  virtualbox
   visual-studio-code
-  vlc
-  xscreensaver
-  zeplin
+  microsoft-edge
+  microsoft-office
+  notion
   # Quick Look plugins
   qlcolorcode
   qlmarkdown
@@ -75,9 +50,6 @@ casks=(
   quicknfo
   suspicious-package
   webpquicklook
-  # Drivers
-  sonos
-  xbox360-controller-driver-unofficial
   # Fonts
   font-m-plus
   font-mplus-nerd-font

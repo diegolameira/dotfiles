@@ -5,6 +5,9 @@ is_osx || return 1
 PATH="/usr/local/bin:$(path_remove /usr/local/bin)"
 export PATH
 
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+
 # Trim new lines and copy to clipboard
 alias c="tr -d '\n' | pbcopy"
 

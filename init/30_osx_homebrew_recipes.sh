@@ -6,35 +6,22 @@ is_osx || return 1
 
 # Homebrew recipes
 recipes=(
-  ansible
-  awscli
+  zsh
+  fish
+  asdf
   bash
   cmatrix
   coreutils
-  cowsay
+  gpg
+  curl
   git
   git-extras
   htop
-  hub
-  id3tool
-  jq
-  lesspipe
-  man2html
-  mercurial
-  nmap
-  postgresql
-  powerline-go
-  reattach-to-user-namespace
-  sl
-  smartmontools
+  lazygit
+  lazydocker
+  # powerline-go
   ssh-copy-id
-  telnet
-  terminal-notifier
-  the_silver_searcher
   thefuck
-  tmux
-  tmux-xpanes
-  tree
   wget
 )
 
