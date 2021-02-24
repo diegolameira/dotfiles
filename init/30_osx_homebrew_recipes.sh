@@ -10,6 +10,7 @@ recipes=(
   fish
   asdf
   bash
+  watchman
   cmatrix
   coreutils
   gpg

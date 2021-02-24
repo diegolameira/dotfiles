@@ -3,6 +3,7 @@
 /backups/
 
 # Top secret stuff!
+/link/.m2
 /link/.ssh/.netrwhist
 /link/.ssh/id_*
 /link/.ssh/*.pem
