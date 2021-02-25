@@ -18,5 +18,5 @@ function dotfiles() {
   $DOTFILES/bin/dotfiles "$@" && src
 }
 
-source $HOME/.paths
+# source $HOME/.paths
 src

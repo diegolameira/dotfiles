@@ -1,4 +1,5 @@
+export JAVA_HOME=$(asdf where java)
 export ANDROID_HOME=$HOME/Library/Android/sdk
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/tools/bin
-export PATH=$PATH:$ANDROID_HOME/platform-tools
+export ANDROID_SDK_ROOT=$ANDROID_HOME/tools
+export ANDROID_SDK_HOME=$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_SDK_ROOT:$ANDROID_SDK_ROOT/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/emulator
