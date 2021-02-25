@@ -30,6 +30,7 @@ recipes=(
   ssh-copy-id
   thefuck
   wget
+  xclip
 )
 
 brew_install_recipes
