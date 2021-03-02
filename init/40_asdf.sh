@@ -26,7 +26,7 @@ asdf install python latest:2
 asdf install yarn latest
 asdf install flutter latest
 asdf install direnv latest
-asdf install ruby latest
+asdf install ruby latest:2
 
 asdf global java adoptopenjdk-8.0.275+1
 asdf global nodejs latest
@@ -39,4 +39,4 @@ asdf global python latest:3
 asdf global yarn latest
 asdf global flutter latest
 asdf global direnv latest
-asdf global ruby latest
+asdf global ruby latest:2
