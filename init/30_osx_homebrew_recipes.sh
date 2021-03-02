@@ -11,6 +11,7 @@ recipes=(
   # gradle
   # android-sdk
   # android-ndk
+  fastlane
   lastpass-cli
   zsh
   fish
