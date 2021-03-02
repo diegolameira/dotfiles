@@ -12,6 +12,7 @@ asdf plugin add python
 asdf plugin add yarn
 asdf plugin add flutter
 asdf plugin add direnv
+asdf plugin add ruby https://github.com/asdf-vm/asdf-ruby.git
 
 asdf install java adoptopenjdk-8.0.275+1
 asdf install nodejs latest
@@ -25,15 +26,17 @@ asdf install python latest:2
 asdf install yarn latest
 asdf install flutter latest
 asdf install direnv latest
+asdf install ruby latest
 
 asdf global java adoptopenjdk-8.0.275+1
 asdf global nodejs latest
 asdf global docker-slim latest
 asdf global deno latest
-asdf install awscli latest
-asdf install gcloud latest
-asdf install github-cli latest
+asdf global awscli latest
+asdf global gcloud latest
+asdf global github-cli latest
 asdf global python latest:3
 asdf global yarn latest
 asdf global flutter latest
 asdf global direnv latest
+asdf global ruby latest
